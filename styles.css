@@ -1,0 +1,18 @@
+/* body {
+  background-color: black;
+  color: greenyellow;
+  padding: 50px;
+  border: 2px solid red;
+  border-radius: 30px;
+  margin: 50px;
+} */
+
+.box {
+  background-color: black;
+  color: yellowgreen;
+  width: 200px;
+  height: 200px;
+  /* border-radius: 50%; */
+  margin: 50px;
+  transform: rotate(45deg);
+}
