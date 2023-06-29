@@ -1,58 +1,100 @@
-/* body {
-  background-color: black;
-  color: greenyellow;
-  padding: 50px;
-  border: 2px solid red;
-  border-radius: 30px;
-  margin: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0px;
+  background-color: #343541;
+  color: #ececf1;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
-.box {
-  background-color: black;
-  color: yellowgreen;
-  width: 200px;
-  height: 200px;
+.sidebar {
+  background-color: #202123;
+  width: 13.25rem;
+  position: sticky;
+  height: 100%;
+  padding: 0.5rem;
+  top: 0px;
+  left: 0px;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.btn {
+  padding: 0rem 0.45rem;
+  font-size: 0.8rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  background-color: transparent;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #ececf1;
+  flex: 1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2b2c2f;
+  transition: all 0.2s;
+}
+
+.sidebar-btn {
+  justify-content: center !important;
+  flex: 0.2;
+  margin-left: 0.5rem;
+}
+.today {
+  font-size: 0.65rem;
+  color: #8e8e9f;
+  font-weight: 500;
+}
+
+.chat-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0rem 0.75rem;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.chat-item:hover {
+  background-color: #2b2c2f;
+  transition: all 0.2s;
+}
+
+.profile-div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  border-top: 1px solid #555;
+  position: fixed;
+  bottom: 0rem;
+  width: 13rem;
+  margin: auto;
+  padding: 0.5rem 0rem;
+}
+
+.profile-img {
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
-  margin: 50px;
-  transform: rotate(45deg);
-} */
-
-/* div {
-  border: 5px solid #000;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-} */
-
-p {
-  font-size: 50px;
-  color: orange;
-  background-color: #000;
-  padding: 20px;
-  border: 2px solid orange;
-  margin: 10px;
+  object-fit: cover;
+  cursor: pointer;
 }
 
-.speacial-p-tag {
-  color: red;
-  background-color: pink;
-  border: 0;
-}
-
-#my-p-tag {
-  background-color: aqua;
-  color: #000;
-  border: 2px solid #000;
-}
-
-/* After this the chatgpt code will start */
-
-#my-box {
-  background-color: maroon;
-  height: 200px;
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-}
+/* 1rem = 16px; */

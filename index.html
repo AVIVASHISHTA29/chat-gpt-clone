@@ -1,58 +1,50 @@
 <html>
   <head>
-    <title>CHAT GPT Bootcamp</title>
+    <title>ChatGPT</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/x-icon" href="./logo.png" />
   </head>
   <body>
-    <!-- <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
-    <p>Heading 7</p>
-    Congratulations,<br />
-    to everyone for participating in the APL.
-    <a href="https://acciojob.com/" target="_blank">
-      <h1>Click Me.</h1>
-    </a>
-    <ul>
-      <li>List Item 1</li>
-      <li>List Item 2</li>
-      <li>List Item 3</li>
-    </ul>
-    <ol>
-      <li>List Item 1</li>
-      <li>List Item 2</li>
-      <li>List Item 3</li>
-    </ol>
-    <input type="text" />
-    <br />
-    <br />
-    <input type="password" />
-    <br />
-    <br />
-    <input type="date" />
-    <br />
-    <br />
-    <input type="number" />
-    <br />
-    <br />
-    <input type="file" />
-    <br />
-    <br />
-    <input type="submit" />
-    <br />
-    <br />
-    <a href="https://www.youtube.com/@acciojob"> <button>CLICK ME</button></a> -->
-
-    <!-- <div class="box">Hello</div> -->
-    <!-- <div></div> -->
-    <p>Hello everyone! Today's winner was subash</p>
-    <p class="speacial-p-tag">Yesterday's winner was shobhit.</p>
-    <p class="speacial-p-tag">Day 1's winner was Lenin!</p>
-    <p id="my-p-tag">Difference b/w ID And Class</p>
-    <h1 style="color: rgb(0, 0, 0)">Heading</h1>
-    <div id="my-box"></div>
+    <div class="sidebar">
+      <div class="btn-flex">
+        <button class="btn">
+          <i data-feather="plus" style="width: 1rem"></i>
+          <p>New Chat</p>
+        </button>
+        <button class="btn sidebar-btn">
+          <i data-feather="sidebar" style="width: 1rem"></i>
+        </button>
+      </div>
+      <div style="margin: 0.5rem; margin-left: 0">
+        <p class="today" style="margin: 1rem 0.5rem; margin-bottom: 0px">
+          Today
+        </p>
+        <div class="chat-item">
+          <i data-feather="message-square" style="width: 1rem"></i>
+          <p>New Chat</p>
+        </div>
+        <div class="chat-item">
+          <i data-feather="message-square" style="width: 1rem"></i>
+          <p>Fundamentals Of CSS</p>
+        </div>
+        <div class="chat-item">
+          <i data-feather="message-square" style="width: 1rem"></i>
+          <p>Fundamentals Of HTML</p>
+        </div>
+      </div>
+      <div class="profile-div">
+        <img src="./profile_pic.jpg" class="profile-img" />
+        <p>Avi Vashishta</p>
+        <i
+          data-feather="more-horizontal"
+          style="width: 1rem; margin-left: auto"
+        ></i>
+      </div>
+    </div>
+    <div>Bye ChatGPT</div>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
